@@ -1,0 +1,20 @@
+header
+{
+	background-color: bisque;
+	text-align: end;
+	display: flex;
+	flex-direction: row;
+	section 
+	{
+		width: 50%;
+	}
+	aside 
+	{
+		width: 1%;
+	}
+}
+main{
+	background-color:rgb(220, 240, 245)	 ;
+}
+
+

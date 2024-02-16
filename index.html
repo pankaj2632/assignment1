@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA PIZZA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pizza.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <section>
+        <h1> PIZZA PIZZA  </h1>
+        <h2>Brampton,ON</h2>
+        </section>
+        <aside>
+            <figure>
+                <img src="pizza.jpg" alt="pizza picture" width="100px" height="100px">
+            </figure>
+        </aside>
+    </header>
+    <main >
+        <form action="submit.html" method="post" required>
+        <fieldset required >
+            <h2 style="text-align: center;">Menu</h2>
+            <label for="select"><strong>Size of Pizza :</strong></label>
+            <select name="Pizza size" id="Pizza size">
+            <option value="0">Select Pizza size </option>
+            <option value="1">Small</option>
+            <option value="2">Medium</option>
+            <option value="3">large</option>
+            <option value="4">Extra-Large</option></select><br><br>
+
+            <label for="select"><strong>Shape of Pizza :</strong></label>
+            <input type="radio" id="Square" name="Shape" value="Square">
+            <label for="Square">Square</label>
+            <input type="radio" id="Circle" name="Shape" value="Circle">
+            <label for="Circle">Circle</label><br><br> 
+
+            <label for="select"><strong>Dough : </strong></label>
+            <input type="radio" id="Regular Dough" name="Dough" value="Regular Dough">
+            <label for="Regular Dough">Regular Dough</label>
+            <input type="radio" id="Regular Thin Dough" name="Dough" value="Regular Thin Dough">
+            <label for="Regular Thin Dough">Regular Thin Dough</label>
+            <input type="radio" id="Regular Thick Dough" name="Dough" value="Regular Thick Dough">
+            <label for="Regular Thick Dough">Regular Thick Dough</label>
+            <input type="radio" id="Stuffed Dough" name="Dough" value="Stuffed Dough">
+            <label for="Stuffed Dough">Stuffed Dough</label>
+            <input type="radio" id="Super Pan Crust" name="Dough" value="Super Pan Crust">
+            <label for="Super Pan Crust">Super Pan Crust</label>
+            <input type="radio" id="Cauliflower Crust" name="Dough" value="Cauliflower Crust">
+            <label for="Cauliflower Crust">Cauliflower Crust</label><br><br>
+
+            <label for="select"><strong>Base Sauce : </strong></label>
+            <select name="Base Sauce" id="Base Sauce">
+                <option value="0">Home Style Italian Tomato Sauce </option>
+                <option value="1">No Sauce </option>
+                <option value="2">Buffalo Base Sauce</option>
+                <option value="3">Butter Chicken Sauce</option>
+                <option value="4">Creamy Garlic Sauce</option>
+                <option value="5">Hot Honey Sauce</option>
+                <option value="6">Pesto Sauce</option>
+                <option value="7">Smokey Texas BBQ</option></select><br><br>
+
+            <label for="select"><strong>Base Cheese : </strong></label>
+            <input type="radio" id="No Cheese" name="Base Cheese" value="No Cheese">
+            <label for="No Cheese">No Cheese</label>
+            <input type="radio" id="Dairy-Free Cheese" name="Base Cheese" value="Dairy-Free Cheese">
+            <label for="Dairy-Free Cheese">Dairy-Free Cheese</label>
+            <input type="radio" id="Six Cheese Base" name="Base Cheese" value="Six Cheese Base">
+            <label for="Six Cheese Base">Six Cheese Base</label>
+            <input type="radio" id="Mozzarella Cheese" name="Base Cheese" value="Mozzarella Cheese">
+            <label for="Mozzarella Cheese">Mozzarella Cheese</label><br><br>
+
+            <label for="select"><strong>Veggie : </strong></label>
+            <input type="checkbox" id="Broccoli" name="Veggie" value="Broccoli">
+            <label for="Broccoli">Broccoli</label>
+            <input type="checkbox" id="Bruchetta" name="Veggie" value="Bruchetta">
+            <label for="Bruchetta">Bruchetta</label>
+            <input type="checkbox" id="Fired Roasted Red Pepper" name="Veggie" value="Fired Roasted Red Pepper">
+            <label for="Fired Roasted Red Pepper">Fired Roasted Red Pepper</label>
+            <input type="checkbox" id="Fresh Mushrooms" name="Veggie" value="Fresh Mushrooms">
+            <label for="Fresh Mushrooms">Fresh Mushrooms</label>
+            <input type="checkbox" id="Green Olives" name="Veggie" value="Green Olives">
+            <label for="Green Olives">Green Olives</label>
+            <input type="checkbox" id="Green Pepper" name="Veggie" value="Green Pepper">
+            <label for="Green Pepper">Green Pepper</label>
+            <input type="checkbox" id="Hot Banana Pepper" name="Veggie" value="Hot Banana Pepper">
+            <label for="Hot Banana Pepper">Hot Banana Pepper</label>
+            <input type="checkbox" id="Jalapeno Pepper" name="Veggie" value="Jalapeno Pepper">
+            <label for="Jalapeno Pepper">Jalapeno Pepper</label><br>
+            <input type="checkbox" id="Kalamata Olives" name="Veggie" value="Kalamata Olives">
+            <label for="Kalamata Olives">Kalamata Olives</label>
+            <input type="checkbox" id="Pineapple" name="Veggie" value="Pineapple">
+            <label for="Pineapple">Pineapple</label>
+            <input type="checkbox" id="Plant-Based Pepperoni" name="Veggie" value="Plant-Based Pepperoni">
+            <label for="Plant-Based Pepperoni">Plant-Based Pepperoni</label>
+            <input type="checkbox" id="Red Onion" name="Veggie" value="Red Onion">
+            <label for="Red Onion">Red Onion</label>
+            <input type="checkbox" id="Roasted Garlic" name="Veggie" value="Roasted Garlic">
+            <label for="Roasted Garlic">Roasted Garlic</label>
+            <input type="checkbox" id="Roma Tomatoes" name="Veggie" value="Roma Tomatoes">
+            <label for="Roma Tomatoes">Roma Tomatoes</label>
+            <input type="checkbox" id="Spinach" name="Veggie" value="Spinach">
+            <label for="Spinach">Spinach</label>
+            <input type="checkbox" id="Sun-Dried Tomatoes" name="Veggie" value="Sun-Dried Tomatoes">
+            <label for="Sun-Dried Tomatoes">Sun-Dried Tomatoes</label><br><br>
+
+            <label for="select"><strong>Meat : </strong></label>
+            <input type="checkbox" id="Bacon Crumble" name="Meat" value="Bacon Crumble">
+            <label for="Bacon Crumble">Bacon Crumble</label>
+            <input type="checkbox" id="Bacon Strips" name="Meat" value="Bacon Strips">
+            <label for="Bacon Strips">Bacon Strips</label>
+            <input type="checkbox" id="Butter Chicken" name="Meat" value="Butter Chicken">
+            <label for="Butter Chicken">Butter Chicken</label>
+            <input type="checkbox" id="Grilled Chicken" name="Meat" value="Grilled Chicken">
+            <label for="Grilled Chicken">Grilled Chicken</label>
+            <input type="checkbox" id="Ground Beef" name="Meat" value="Ground Beef">
+            <label for="Ground Beef">Ground Beef</label>
+            <input type="checkbox" id="Italian Ham" name="Meat" value="Italian Ham">
+            <label for="Italian Ham">Italian Ham</label>
+            <input type="checkbox" id="New York Style Pepperoni" name="Meat" value="New York Style Pepperoni">
+            <label for="New York Style Pepperoni">New York Style Pepperoni</label>
+            <input type="checkbox" id="Pepperoni" name="Meat" value="Pepperoni">
+            <label for="Pepperoni">Pepperoni</label><br>
+            <input type="checkbox" id="Salami" name="Meat" value="Salami">
+            <label for="Salami">Salami</label>
+            <input type="checkbox" id="Spicy Italian Sausage" name="Meat" value="Spicy Italian Sausage">
+            <label for="Spicy Italian Sausage">Spicy Italian Sausage</label><br><br>
+
+            <label for="select"><strong>Cheese : </strong></label>
+            <input type="radio" id="Extra Cheese" name="Cheese" value="Extra Cheese">
+            <label for="Extra Cheese">Extra Cheese</label>
+            <input type="radio" id="Extra Dairy-Free Cheese" name="Cheese" value="Extra Dairy-Free Cheese">
+            <label for="Extra Dairy-Free Cheese">Extra Dairy-Free Cheese</label>
+            <input type="radio" id="Six Cheese Blend Topping" name="Cheese" value="Six Cheese Blend Topping">
+            <label for="Six Cheese Blend Topping">Six Cheese Blend Topping</label>
+            <input type="radio" id="Parmesan Cheese" name="Cheese" value="Parmesan Cheese">
+            <label for="Parmesan Cheese">Parmesan Cheese</label><br><br>
+
+            <label for="select"><strong>Extra Flavour Toppings : </strong></label>
+            <input type="checkbox" id="Creamy Garlic Sauce Drizzle" name="Flavour" value="Creamy Garlic Sauce Drizzle">
+            <label for="Creamy Garlic Sauce Drizzle">Creamy Garlic Sauce Drizzle</label>
+            <input type="checkbox" id="Chili Pepper" name="Flavour" value="Chili Pepper">
+            <label for="Chili Pepper">Chili Pepper</label>
+            <input type="checkbox" id="Hot Honey Drizzle" name="Flavour" value="Hot Honey Drizzle">
+            <label for="Hot Honey Drizzle">Hot Honey Drizzle</label>
+            <input type="checkbox" id="Hot Sauce Drizzle" name="Flavour" value="Hot Sauce Drizzle">
+            <label for="Hot Sauce Drizzle">Hot Sauce Drizzle</label>
+            <input type="checkbox" id="Italiano Blend Seasoning" name="Flavour" value="Italiano Blend Seasoning">
+            <label for="Italiano Blend Seasoning">Italiano Blend Seasoning</label>
+            <input type="checkbox" id="Olive Oil" name="Flavour" value="Olive Oil">
+            <label for="Olive Oil">Olive Oil</label><br>
+            <input type="checkbox" id="BBQ Drizzle" name="Flavour" value="BBQ Drizzle">
+            <label for="BBQ Drizzle">BBQ Drizzle</label><br><br>
+            
+            <label for="select"><strong>Dipping Sauce : </strong></label>
+            <input type="checkbox" id="Blue Cheese" name="Dipping" value="Blue Cheese">
+            <label for="Blue Cheese">Blue Cheese</label>
+            <input type="checkbox" id="Buffalo Sauce" name="Dipping" value="Buffalo Sauce">
+            <label for="Buffalo Sauce">Buffalo Sauce</label>
+            <input type="checkbox" id="Cheddar Jalapeno" name="Dipping" value="Cheddar Jalapeno">
+            <label for="Cheddar Jalapeno">Cheddar Jalapeno</label>
+            <input type="checkbox" id="Creamy Dill" name="Dipping" value="Creamy Dill">
+            <label for="Creamy Dill">Creamy Dill</label>
+            <input type="checkbox" id="Creamy Garlic" name="Dipping" value="Creamy Garlic">
+            <label for="Creamy Garlic">Creamy Garlic</label>
+            <input type="checkbox" id="Honey Garlic" name="Dipping" value="Honey Garlic">
+            <label for="Honey Garlic">Honey Garlic</label>
+            <input type="checkbox" id="Honey Mustard" name="Dipping" value="Honey Mustard">
+            <label for="Honey Mustard">Honey Mustard</label>
+            <input type="checkbox" id="Hot Sauce" name="Dipping" value="Hot Sauce">
+            <label for="Hot Sauce">Hot Sauce</label><br>
+            <input type="checkbox" id="Italian Marinara" name="Dipping" value="Italian Marinara">
+            <label for="Italian Marinara">Italian Marinara</label>
+            <input type="checkbox" id="Peppercorn Ranch" name="Dipping" value="Peppercorn Ranch">
+            <label for="Peppercorn Ranch">Peppercorn Ranch</label>
+            <input type="checkbox" id="Sriracha Creamy Garlic" name="Dipping" value="Sriracha Creamy Garlic">
+            <label for="Sriracha Creamy Garlic">Sriracha Creamy Garlic</label>
+            <input type="checkbox" id="Sweet Chili Thai Sauce" name="Dipping" value="Sweet Chili Thai Sauce">
+            <label for="Sweet Chili Thai Sauce">Sweet Chili Thai Sauce</label>
+            <input type="checkbox" id="Smokey Texas BBQ" name="Dipping" value="Smokey Texas BBQ">
+            <label for="Smokey Texas BBQ">Smokey Texas BBQ</label><br><br>
+
+            <label for="type"><strong>Number of Pizza  </strong></label>
+            <input type="number" id="quantity" name="quantity" min="1" max="20" value="1"><br><br>
+
+            <label for="type"><strong>Any other thing you wanna add :  </strong></label>
+            <textarea name="Number" id="Number" cols="20"row="4"></textarea><br><br>
+
+            <label for="type"><strong>Delivery :  </strong></label>
+            <input type="radio" id="Dine In" name="Delivery" value="Dine In">
+            <label for="Dine In">Dine In</label>
+            <input type="radio" id="Take Out" name="Delivery" value="Take Out">
+            <label for="Take Out">Take Out</label><br>
+        </fieldset>
+    <fieldset required >
+        <h3 style="text-align: center;">Personnel Details </h3>
+        <label for="name"><strong>Name :  </strong></label>
+        <textarea name="name" id="name" cols="20"row="4"></textarea><br><br>
+        <label for="email"><strong>Email :  </strong></label>
+        <textarea name="Email" id="email" cols="20"row="4"></textarea><br><br>
+        <label for="number"><strong>Number :  </strong></label>
+        <textarea name="number" id="number" cols="20"row="4"></textarea><br><br>
+    </fieldset><br><br>
+    <section style="text-align: center;">  
+    <input type="submit" value="Place Order" >
+    <input type="reset" value="Reset" > <br><br>
+</section>  
+    </form>
+    </main>
+    
+</body>
+</html>
